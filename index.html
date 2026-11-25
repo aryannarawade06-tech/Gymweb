@@ -6,7 +6,7 @@
 <meta name="description" content="Forge Fitness — a premium gym demo website with training, memberships, classes and contact details.">
 <title>FORGE FITNESS | Build Your Stronger</title>
 <style>
-:root{--bg:#0b0d0f;--panel:#14181b;--muted:#aab0b5;--text:#f7f8f8;--lime:#c6ff3d;--line:rgba(255,255,255,.12)}
+:root{--bg:#0b0d0f;--panel:#14181b;--muted:#aab0b5;--text:#f7f8f8;--lime:#D4AF37;--line:rgba(255,255,255,.12)}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
@@ -44,7 +44,7 @@ h2{font-size:clamp(2rem,4vw,3.3rem);line-height:1.05;letter-spacing:-1.5px;text-
 .section-head p{color:var(--muted);max-width:420px}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;transition:transform .25s,border-color .25s}
-.card:hover{transform:translateY(-5px);border-color:rgba(198,255,61,.55)}
+.card:hover{transform:translateY(-5px);border-color:rgba(212,175,55,.55)}
 .card-img{height:220px;background-size:cover;background-position:center;position:relative}
 .card-img:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.5),transparent 65%)}
 .card-body{padding:23px}.card h3{font-size:1.25rem;margin-bottom:8px}.card p{color:var(--muted);font-size:.95rem;margin-bottom:18px}
@@ -130,8 +130,8 @@ footer{border-top:1px solid var(--line);padding:27px 0;color:var(--muted);font-s
 <section id="membership"><div class="container">
   <div class="section-head"><div><div class="kicker">Simple membership options</div><h2>Pick your plan.</h2></div><p>Choose a starting point that fits your routine. Ask our team about current offers and exact inclusions.</p></div>
   <div class="cards">
-    <article class="pricing-card"><div class="plan">Starter</div><div class="price">₹499<small> / month*</small></div><p>A straightforward way to get into a consistent gym routine.</p><ul><li>Gym floor access</li><li>Basic orientation session</li><li>Locker access*</li><li>Flexible workout hours*</li></ul><a class="btn outline" href="#contact">Ask About Starter</a></article>
-    <article class="pricing-card featured"><span class="popular">MEMBER FAVOURITE</span><div class="plan">Plus</div><div class="price">₹1,499<small> / month*</small></div><p>Extra guidance to help you stay consistent and make progress.</p><ul><li>All Starter benefits</li><li>Monthly coach check-in*</li><li>Group classes*</li><li>Workout plan guidance</li></ul><a class="btn" href="#contact">Choose Plus ↗</a></article>
+    <article class="pricing-card"><div class="plan">Starter</div><div class="price">₹1,499<small> / month*</small></div><p>A straightforward way to get into a consistent gym routine.</p><ul><li>Gym floor access</li><li>Basic orientation session</li><li>Locker access*</li><li>Flexible workout hours*</li></ul><a class="btn outline" href="#contact">Ask About Starter</a></article>
+    <article class="pricing-card featured"><span class="popular">MEMBER FAVOURITE</span><div class="plan">Plus</div><div class="price">₹2,499<small> / month*</small></div><p>Extra guidance to help you stay consistent and make progress.</p><ul><li>All Starter benefits</li><li>Monthly coach check-in*</li><li>Group classes*</li><li>Workout plan guidance</li></ul><a class="btn" href="#contact">Choose Plus ↗</a></article>
     <article class="pricing-card"><div class="plan">Personal Coaching</div><div class="price">Custom</div><p>One-to-one coaching built around your personal goals.</p><ul><li>Coach consultation</li><li>Personalised training plan</li><li>Progress check-ins*</li><li>Schedule by arrangement</li></ul><a class="btn outline" href="#contact">Talk to a Coach</a></article>
   </div>
   <p class="small-note">*Demo content only. Replace all sample prices, numbers, hours and inclusions with the gym's confirmed details before publishing.</p>
